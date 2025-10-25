@@ -14,6 +14,9 @@ class Simple
 	{
 		data = 500;
 		System.out.println("Object creation is in progress");
+		System.out.println(data);
+
+
 	}
 }
 
@@ -23,10 +26,10 @@ public class NonStaticBlockDemo5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Simple s1 = new Simple();
-		System.out.println(s1.data);
+//		System.out.println(s1.data);
 		
 		Simple s2 = new Simple();
-		System.out.println(s2.data);
+//		System.out.println(s2.data);
 	}
 
 }
